@@ -1,0 +1,25 @@
+Rank,Train RMSE,CV RMSE,CV Std,Fit time (s),Parameters,Gap
+1,195.09936589827754,392.42276924230066,29.369464821702916,8.756313037872314,"{'features__enabled': True, 'model__learning_rate': 0.1, 'model__max_depth': 4, 'model__n_estimators': 800}",197.32340334402312
+2,221.5275968637714,393.67299567502494,29.47449719110928,8.87273416519165,"{'features__enabled': True, 'model__learning_rate': 0.07, 'model__max_depth': 4, 'model__n_estimators': 800}",172.14539881125353
+3,246.54637033788222,396.0648073420787,29.051983700365334,4.587434720993042,"{'features__enabled': True, 'model__learning_rate': 0.1, 'model__max_depth': 4, 'model__n_estimators': 400}",149.5184370041965
+4,253.7265111478373,397.88558194268836,28.418117201201518,4.839215612411499,"{'features__enabled': False, 'model__learning_rate': 0.07, 'model__max_depth': 4, 'model__n_estimators': 800}",144.15907079485106
+5,229.0316807655854,398.67983521180923,29.92290340403869,4.874168872833252,"{'features__enabled': False, 'model__learning_rate': 0.1, 'model__max_depth': 4, 'model__n_estimators': 800}",169.64815444622383
+6,272.71812559423995,400.6270873833263,28.218395313397107,4.390771770477295,"{'features__enabled': True, 'model__learning_rate': 0.07, 'model__max_depth': 4, 'model__n_estimators': 400}",127.90896178908633
+7,284.9419095396116,404.56948452130644,28.992853248415063,8.848889207839965,"{'features__enabled': True, 'model__learning_rate': 0.03, 'model__max_depth': 4, 'model__n_estimators': 800}",119.62757498169486
+8,277.3832024616539,406.3699969933768,28.22681888380571,2.4614200592041016,"{'features__enabled': False, 'model__learning_rate': 0.1, 'model__max_depth': 4, 'model__n_estimators': 400}",128.98679453172286
+9,300.7411658513426,408.83774523051795,26.09136044420217,2.4161407470703127,"{'features__enabled': False, 'model__learning_rate': 0.07, 'model__max_depth': 4, 'model__n_estimators': 400}",108.09657937917535
+10,318.21149207059324,412.5455597226666,27.01464051291722,4.646278142929077,"{'features__enabled': True, 'model__learning_rate': 0.1, 'model__max_depth': 2, 'model__n_estimators': 800}",94.33406765207337
+11,313.33315083482705,413.3972736449844,29.119027181606608,4.989100360870362,"{'features__enabled': False, 'model__learning_rate': 0.03, 'model__max_depth': 4, 'model__n_estimators': 800}",100.06412281015736
+12,332.1988815879399,418.6803882762476,26.41747777352581,4.415774011611939,"{'features__enabled': True, 'model__learning_rate': 0.03, 'model__max_depth': 4, 'model__n_estimators': 400}",86.48150668830766
+13,341.7804404606121,419.53445347700244,26.38773031536618,4.730485916137695,"{'features__enabled': True, 'model__learning_rate': 0.07, 'model__max_depth': 2, 'model__n_estimators': 800}",77.75401301639033
+14,351.9599914257092,421.22891342104305,22.0420307091162,2.6424020290374757,"{'features__enabled': False, 'model__learning_rate': 0.1, 'model__max_depth': 2, 'model__n_estimators': 800}",69.26892199533387
+15,362.864778559506,427.1337882547776,24.466396808202763,2.441789150238037,"{'features__enabled': True, 'model__learning_rate': 0.1, 'model__max_depth': 2, 'model__n_estimators': 400}",64.26900969527156
+16,355.2847948561829,428.34838706643905,27.712479204696123,2.4578131198883058,"{'features__enabled': False, 'model__learning_rate': 0.03, 'model__max_depth': 4, 'model__n_estimators': 400}",73.06359221025616
+17,374.1281917091523,431.583191028297,20.54248793141496,2.5729016304016112,"{'features__enabled': False, 'model__learning_rate': 0.07, 'model__max_depth': 2, 'model__n_estimators': 800}",57.45499931914469
+18,386.44508470734473,439.3770614668803,23.263035610819706,2.3543840885162353,"{'features__enabled': True, 'model__learning_rate': 0.07, 'model__max_depth': 2, 'model__n_estimators': 400}",52.93197675953559
+19,391.5493850302025,440.93256385807706,20.78372220279641,1.3041915416717529,"{'features__enabled': False, 'model__learning_rate': 0.1, 'model__max_depth': 2, 'model__n_estimators': 400}",49.38317882787459
+20,399.2778270284154,447.6474468980602,23.58906300956247,4.606036853790283,"{'features__enabled': True, 'model__learning_rate': 0.03, 'model__max_depth': 2, 'model__n_estimators': 800}",48.369619869644794
+21,413.9247956158556,452.27240278824263,21.206178726738464,1.4334682464599608,"{'features__enabled': False, 'model__learning_rate': 0.07, 'model__max_depth': 2, 'model__n_estimators': 400}",38.34760717238703
+22,425.4240655664873,461.69201415217566,22.078363811535176,2.643928384780884,"{'features__enabled': False, 'model__learning_rate': 0.03, 'model__max_depth': 2, 'model__n_estimators': 800}",36.26794858568837
+23,439.0966798159134,475.24034785299045,22.55589010048946,2.3797657966613768,"{'features__enabled': True, 'model__learning_rate': 0.03, 'model__max_depth': 2, 'model__n_estimators': 400}",36.14366803707708
+24,458.81242141383484,488.2241117317121,23.112232304916148,1.350824785232544,"{'features__enabled': False, 'model__learning_rate': 0.03, 'model__max_depth': 2, 'model__n_estimators': 400}",29.411690317877287
