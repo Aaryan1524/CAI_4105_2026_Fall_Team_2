@@ -1,7 +1,0 @@
-Model,Engineered features,Best tuning CV RMSE
-Random Forest,False,414.83131783412074
-Random Forest,True,412.606029769721
-Gradient Boosting,False,397.88558194268836
-Gradient Boosting,True,392.42276924230066
-Histogram Gradient Boosting,False,400.7200976729202
-Histogram Gradient Boosting,True,399.2684555789689
