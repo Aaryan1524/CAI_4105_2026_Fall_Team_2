@@ -13,3 +13,5 @@ __pycache__/
 
 # Data files
 *.dat
+anaconda_projects/
+.virtual_documents/
