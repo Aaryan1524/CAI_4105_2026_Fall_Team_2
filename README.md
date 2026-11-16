@@ -67,3 +67,34 @@ Our submission includes `challenge1.ipynb`, `README.md`, `predictions.csv` and
 `requirements.txt`. The provided training and test datasets are also in our
 repository so the workflow can be reproduced. Each team member is responsible
 for submitting their own peer-review form in Canvas.
+
+## Challenge 2 — Task 4: Model improvement
+
+The shopping-session classification workflow is in
+[`challenge2/challenge2.ipynb`](challenge2/challenge2.ipynb). Task 4 uses
+`GridSearchCV` to tune Gradient Boosting (16 configurations) and Random Forest
+(12 configurations), the two strongest starting models from Task 3. Both grids
+include their starting configurations. We compare positive-class F1, precision,
+recall, ROC AUC, training/validation gaps, fold variation and fitting time.
+
+| Model | Starting CV F1 | Tuned CV F1 | Tuned train/validation gap |
+| --- | ---: | ---: | ---: |
+| Gradient Boosting | 0.6733 | 0.6799 | 0.0615 |
+| Random Forest | 0.6677 | 0.6771 | 0.1457 |
+
+Gradient Boosting improved while narrowing its train/validation gap. Random
+Forest improved its CV F1 but increased its gap, so overfitting remains a concern.
+
+The searches reuse the five shuffled stratified folds (`random_state=42`) on the
+85% development split. Preprocessing is fitted inside each fold, and the native
+prediction rules are retained. The 15% holdout and competition test rows are not
+used for tuning. The best CV scores are parameter-selection results and may be
+optimistic; they are not independent estimates of final-model performance.
+
+To reproduce Tasks 1–4, install the root `requirements.txt`, open the notebook
+with `challenge2/` as the working directory, and run all cells from a fresh kernel.
+Task 4 writes `task4_gradient_boosting_grid.csv`, `task4_random_forest_grid.csv`
+and `task4_tuning_comparison.csv` alongside the notebook. The comparison records
+starting and tuned performance; the grid files retain every candidate's results.
+Final-model selection and test prediction generation (Tasks 5–6) remain pending.
+The root `predictions.csv` belongs to Challenge 1.
