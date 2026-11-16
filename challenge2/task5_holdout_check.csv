@@ -1,0 +1,2 @@
+Model,Decision rule,Threshold,CV F1 (dev),Holdout F1,Holdout precision,Holdout recall,Holdout positives
+Gradient Boosting,Tuned threshold (nested),0.25927004101071277,0.6935813671660076,0.636,0.5578947368421052,0.7395348837209302,215
